@@ -16,6 +16,8 @@ body {
     width: 100%;
 }
 
+
+/* navbar section */
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -84,4 +86,52 @@ span sup {
 
 .list-left {
     /* padding-left: 20px; */
+}
+
+/* hero section */
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* margin: 20px; */
+    background-image: url(images/bubbles-dktp.svg), linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    padding-top: 100px;
+    gap: 90px;
+}
+
+.hero-section img {
+    width: 300px;
+    
+}
+
+.hero-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding-left: 240px; */
+    width: 50%;
+    /* padding: 30px; */
+    
+}
+
+.hero-txt h1 {
+    font-size: 62px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+button {
+    padding: 20px;
+    border-radius: 100px;
+    border-style: none;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 30px;
 }
