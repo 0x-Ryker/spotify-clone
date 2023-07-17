@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.spotify-logo {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.fa-spotify {
+    font-size: 40px;
+}
+
+span sup {
+    font-size: 10px;
+}
+
+.listed-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+.list-nav {
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-between; */
+   gap: 40px;
+   
+}
+
+.list-nav div  {
+    /* display:inline-block; */
+    
+}
+
+.list-nav div a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.list-nav div a:hover {
+    color: rgb(31, 231, 31);
+}
+
+.list-right {
+    border-left: 2px solid;
+    padding-left: 20px;
+    
+}
+
+.list-left {
+    /* padding-left: 20px; */
+}
