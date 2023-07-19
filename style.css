@@ -135,3 +135,70 @@ button {
     background-color: white;
     margin-top: 30px;
 }
+
+/* section 2 */
+
+.section-two {
+   /* background-color: brown; */
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 80vh;
+   
+}
+
+.section-two h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    /* margin-top: 50px; */
+}
+
+.section2-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.section2-flex-items {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 20%;
+    gap: 40px;
+    
+}
+
+.heading-paragraph {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading-paragraph h4 {
+    font-size: 20px;
+}
+
+
+/* section 3 */
+.section3-text-central {
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 50vh;
+    background-image: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3-text-central h2 {
+    font-size: 40px;
+}
