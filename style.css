@@ -202,3 +202,81 @@ button {
 .section3-text-central h2 {
     font-size: 40px;
 }
+
+
+/* Accordion section  */
+
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.accordion {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    border-radius: 0;
+    width: 90%;
+    padding: 30px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #f0f0f0;
+    
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    
+  }
+  
+  .active:after {
+    content: "\2212";
+    color: black;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(0, 0, 0);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 90%;
+    background-color: #ffffff;
+    margin-bottom: -25px;
+    border-bottom: 1px solid gray;
+    
+  }
+
+  .panel p {
+    padding: 15px 10px;
+  }
+
+
+  .panel ol {
+    padding: 25px;
+  }
+
+  .panel ol li span {
+    color: green;
+    font-weight: bold;
+  }
