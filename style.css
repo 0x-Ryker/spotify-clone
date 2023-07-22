@@ -387,6 +387,11 @@ article h2 {
     font-weight: bold;
   }
 
+  .panel p span {
+    color: green;
+    font-weight: bold;
+  }
+
 
   /* section 4 */
   .section-four {
