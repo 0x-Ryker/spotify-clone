@@ -22,10 +22,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 20px 70px;
 }
 
 .spotify-logo {
@@ -121,7 +121,7 @@ span sup {
 }
 
 .hero-txt h1 {
-    font-size: 62px;
+    font-size: 60px;
     font-weight: bold;
     color: white;
     
@@ -139,38 +139,34 @@ button {
 /* section 2 */
 
 .section-two {
-   /* background-color: brown; */
    width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: center;
    min-height: 80vh;
-   
+   margin-bottom: 50px;
 }
 
 .section-two h2 {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
-    /* margin-top: 50px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .section2-flex-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
 .section2-flex-items {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     width: 20%;
     gap: 40px;
-    
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 .heading-paragraph {
@@ -182,6 +178,7 @@ button {
 
 .heading-paragraph h4 {
     font-size: 20px;
+    
 }
 
 
@@ -429,4 +426,68 @@ article h2 {
     color: rgb(31, 231, 31);
   }
 
+
+
+  /* media query */
+  @media screen and (max-width: 990px) {
+
+    /* hero section */
+.hero-section {
+  justify-content: flex-start;
+  padding-top: 0px;
+  min-height: 70vh;
+  width: 100%;
+}
+
+.hero-section img {
+  display: none;
+}
+
+.hero-txt {
+  align-items: flex-start;
+  width: 90%;
+  padding-left: 20px;
+}
+
+.hero-txt h1 {
+  font-size: 50px;
+}
+
+
+/* section 2 */
+.section2-flex-items {
+  width: 40%;
+}
+
+
+  }
   
+
+  /* media query 2 */
+
+  @media screen and (max-width: 765px) {
+    /* section 2 */
+    .section-two h2 {
+      text-align: left;
+       margin-top: 50px;
+       margin-bottom: 50px;
+       margin-left: 20px;
+    }
+    
+    .section2-flex-container {
+       justify-content: flex-start;
+       flex-wrap: wrap;
+    }
+    
+    .section2-flex-items {
+       align-items: flex-start;
+       width: 90%;
+       margin: 20px;
+    }
+    
+    .heading-paragraph {
+       text-align: left;
+       align-items: flex-start;
+    }
+   
+  }
