@@ -183,7 +183,19 @@ button {
 
 
 /* section 3 */
+
 .section3-text-central {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3-img-sec img {
+  display: none;
+}
+
+.section3-txt {
     width: 100%;
     text-align: center;
     color: white;
@@ -307,7 +319,6 @@ article h2 {
   footer {
     display: flex;
     flex-direction: column;
-    /* min-height: 80vh; */
     width: 100%;
     justify-content: center;
 
@@ -344,7 +355,6 @@ article h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    /* width: 70%; */
     gap: 70px;
     flex-wrap: wrap;
     font-size: 15px;
@@ -360,7 +370,7 @@ article h2 {
     font-size: 25px;
     border-radius: 100px;
     padding: 10px;
-    /* gap: 5px; */
+
     background-color: rgb(34, 33, 33);
     color: rgb(255, 254, 254);
   }
@@ -391,7 +401,6 @@ article h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* gap: 50px; */
     align-items: flex-end;
   }
 
@@ -490,4 +499,35 @@ article h2 {
        align-items: flex-start;
     }
    
+
+    /* section 3 */
+    .section3-text-central {
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section3-img-sec {
+      background-image: url(images/bubbles-phone-mobile.svg);
+      background-position: center top 16px;
+      background-repeat: no-repeat;
+      background-size:506px 512px;
+      width: 100%;
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    
+    .section3-img-sec img {
+      position: relative;
+      top: 20px;
+      display: block;
+    }
+  
+    
+
   }
