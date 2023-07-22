@@ -347,7 +347,7 @@ article h2 {
   }
   
   .accordion:after {
-    content: '\002B';
+    content: url(images/arrow-down2.png); width: 1px;
     color: black;
     font-weight: bold;
     float: right;
@@ -356,7 +356,7 @@ article h2 {
   }
   
   .active:after {
-    content: "\2212";
+    content: url(images/arrow-up2.png); width: 1px;
     color: black;
   }
   
